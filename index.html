@@ -1,12 +1,132 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi Página Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoFinance - Finanzas con Impacto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7f5;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #4CAF50;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>¡Hola, soy Diego!</h1>
-  <p>Esta es mi primera página web con GitHub Pages.</p>
+
+<header>
+  <h1>EcoFinance</h1>
+  <p>Tu app para mejorar tus finanzas mientras cuidas el planeta 🌱</p>
+  <a class="cta" href="#">¡Próximamente en tu app store!</a>
+</header>
+
+<section>
+  <h2>¿Qué es EcoFinance?</h2>
+  <p>EcoFinance es una app que te ayuda a gestionar tu dinero y reducir tu impacto ambiental. Combina finanzas personales con hábitos sostenibles y te premia por cada acción consciente.</p>
+</section>
+
+<section>
+  <h2>Características principales</h2>
+  <div class="features">
+
+    <div class="card">
+      <h3>Inicio / Panel Principal</h3>
+      <p>Visualiza tu resumen financiero, eco-puntos acumulados, huella de carbono y notificaciones personalizadas.</p>
+    </div>
+
+    <div class="card">
+      <h3>Mi Dinero</h3>
+      <p>Registra ingresos y gastos, define presupuestos, analiza tus hábitos y alcanza tus objetivos de ahorro.</p>
+    </div>
+
+    <div class="card">
+      <h3>Eco-puntos</h3>
+      <p>Gana puntos por hábitos sostenibles y canjéalos por recompensas o donaciones a ONGs.</p>
+    </div>
+
+    <div class="card">
+      <h3>Huella Ecológica</h3>
+      <p>Calcula tus emisiones, recibe consejos personalizados y sigue tu progreso en sostenibilidad.</p>
+    </div>
+
+    <div class="card">
+      <h3>Voluntariado</h3>
+      <p>Únete a eventos ecológicos, haz voluntariado y gana más eco-puntos por participar.</p>
+    </div>
+
+    <div class="card">
+      <h3>Asistente Financiero</h3>
+      <p>Un chatbot que responde tus dudas, te educa y te recuerda tus metas financieras.</p>
+    </div>
+
+    <div class="card">
+      <h3>Perfil e Integraciones</h3>
+      <p>Personaliza tu cuenta, conecta tus apps de transporte, energía y banca para tener control total.</p>
+    </div>
+
+    <div class="card">
+      <h3>Comunidad</h3>
+      <p>Participa en foros, comparte experiencias y únete a desafíos grupales para mejorar juntos.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2025 EcoFinance - Una iniciativa por el futuro sostenible 🌎
+</footer>
+
 </body>
 </html>
